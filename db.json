@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "ana@test.com",
+      "password": "$2a$10$U2XzfiL3jaTwdpskrrBD8u/udty8Hnb9PdE1YPXk.SX/bJ1kxu1wy",
+      "name": "Ana",
+      "id": 1
+    },
+    {
+      "email": "Fer@gmail.com",
+      "password": "$2a$10$bJ7P5kywEI04IILSX9zjxOf4YGNjeeF.6SoVZebwXckoeqYYFS56W",
+      "name": "Fer",
+      "id": 2
+    }
+  ],
+  "rutinas": [
+    {
+      "id": 1,
+      "nombre": "Hipertrofia de pecho",
+      "grupoMuscular": "Pecho",
+      "series": 4,
+      "repeticiones": 10,
+      "activa": true
+    }
+  ]
+}
