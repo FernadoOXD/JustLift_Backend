@@ -11,16 +11,44 @@
       "password": "$2a$10$bJ7P5kywEI04IILSX9zjxOf4YGNjeeF.6SoVZebwXckoeqYYFS56W",
       "name": "Fer",
       "id": 2
+    },
+    {
+      "email": "user01@gmail.com",
+      "password": "$2a$10$Tsn/TxLArX.bZ6GbpuV1MOYCD1IOd7q4qbmjtivChRHX8a6WnsQxK",
+      "name": "user1",
+      "id": 3
+    },
+    {
+      "email": "user02@gmail.com",
+      "password": "$2a$10$OPcgkgugH8H1HKkPjpfvp.Op0eVly1re0N1fqTm1H.FlQe9cx1MWC",
+      "name": "user2",
+      "id": 4
+    },
+    {
+      "email": "user03@gmail.com",
+      "password": "$2a$10$sLDk/PK9f9XKaGt4vTFe.ec7.njsbBTxCtk.B7u4Pw962fMwUefcC",
+      "name": "user3",
+      "id": 5
     }
   ],
   "rutinas": [
     {
-      "id": 1,
-      "nombre": "Hipertrofia de pecho",
-      "grupoMuscular": "Pecho",
-      "series": 4,
-      "repeticiones": 10,
-      "activa": true
+      "userId": 3,
+      "nombre": "press de banca",
+      "grupoMuscular": "pecho",
+      "series": 3,
+      "repeticiones": 8,
+      "activa": true,
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "nombre": "rompe cráneos",
+      "grupoMuscular": "triceps",
+      "series": 8,
+      "repeticiones": 15,
+      "activa": false,
+      "id": 2
     }
   ]
 }
